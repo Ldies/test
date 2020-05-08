@@ -18,9 +18,16 @@ Pod::Spec.new do |spec|
   spec.name         = "test.podpec"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of test.podpec."
-
+  spec.homepage     = "https://github.com/Ldies/test"
+  spec.license      = "mit"
+  spec.authors      = {'Ldies' => '389975279@qq.com'}
+  spec.platform     = :ios,'9.0'
+  spec.source       = {:git => 'https://github.com/Ldies/test.git'}
+  spec.source_files = 'demo/**/*'
+  spec.requires_arc = true
   # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
+  
+#   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
